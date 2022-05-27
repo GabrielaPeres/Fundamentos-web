@@ -1,7 +1,21 @@
 /*Estilos da pagina index.hrml*/
+.index{
+       
+    background-image: url(https://img.freepik.com/vetores-gratis/gato-em-um-padrao-de-repeticao-sem-costura-de-moldura-de-coracao-fundo-de-papel-de-parede-fundo-de-padrao-sem-emenda-fofo_42349-860.jpg?w=2000);
+}
+
+body {
+    margin: 0px 0px 0px 0px
+}
+
 .center{
     text-align: center;
 }
+.center-footer {
+    text-align: center;
+    margin: 0px 0px 0px 0px 
+}   
+
 .justify{
     text-align: justify;
 }
@@ -12,10 +26,33 @@
     justify-content: center;
     align-items: center;
 }
-.letter{
-    font-size: 30px;
+
+.container-footer {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0px 0px 0px
 
 }
+
+.hr-contato {
+    background-color:rgb(191, 123, 197);
+    position: relative;
+    top: 65px;
+   
+}
+
+.letter{
+font-size: 30px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-contato {
+background-color:rgb(216, 105,111);
+margin-top: 65px;
+}
+
 #menu li {
 display: inline;
 padding: 15px;
@@ -30,7 +67,9 @@ text-decoration: none;
 #menu li a:hover {
 color: hotpink;
 }
-
+.p-50{
+    padding: 100px;
+}
 .p-30{
     padding: 30px;
 }
@@ -48,8 +87,8 @@ color: hotpink;
 }
  .mb-50{
      margin-bottom: 50px;
- }
- 
+}
+
 /*Estilos da página contato.html*/
 .ml-50{
     margin-left: 50px;
